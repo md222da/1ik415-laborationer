@@ -14,6 +14,45 @@
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+            <fieldset>
+                <legend>Dina uppgifter</legend>
+                    <label for="firstname">Förnamn:</label>
+                    <input type="text" id="firstname" name="firstname">
+                    <label for="lastname">Efternamn:</label>
+                    <input type="text" id="lastname" name="lastname">
+                    <label for="message">Meddelande:</label>
+                    <textarea rows="5" cols="30">Här kan du skriva ditt meddelande</textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Dina ärende</legend>
+                    
+                    <select name="say" id="say">
+                        <option value="question" selected>Fråga</option>
+                        <option value="offer">Erbjudande</option>
+                        <option value="info">Information</option>
+                        <option value="meet">Möte</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+               <legend>Vilken är din relation</legend> 
+                   
+                   <input type="radio" name="group1" value="client" checked>Kund
+                   <input type="radio" name="group1" value="partner">Samarbetspartner
+                   <input type="radio" name="group1" value="member">Medlem
+                   <input type="radio" name="group1" value="somethingelse">Övrigt
+            </fieldset>
+            <fieldset>
+                <legend>Hur vill du bli kontaktad</legend>
+                    
+                    <input type="checkbox" name="g1[]" value="email">Email
+                    <input type="checkbox" name="g1[]" value="mobile">Mobil
+                    <input type="checkbox" name="g1[]" value="phone">Hemtelefon
+                    <input type="checkbox" name="g1[]" value="mail">Post
+            </fieldset>
+            
+            <input type="submit" value="Skicka">
+        </form>
         
     </body>
 </html>
