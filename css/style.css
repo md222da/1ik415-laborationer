@@ -50,4 +50,44 @@ table {
 }
 
 
-/* Här blrjar stylingen*/
+/* Här börjar stylingen*/
+
+
+
+#container {
+    
+    width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#header {
+    
+    width: 1200px;
+    min-height: 200px;
+    background-color: blue;
+}
+
+#navigation {
+    
+    width: 200px;
+    float: left;
+    background-color: green;
+    
+}
+
+#content {
+    
+    width: 1000px;
+    float: left;
+    min-height: 800px;
+    background-color: pink;
+}
+
+footer {
+    
+    width: 1200px;
+    min-height: 100px;
+    background-color: black;
+    color: white;
+}
