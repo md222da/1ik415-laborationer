@@ -52,27 +52,29 @@ table {
 
 /* Här börjar stylingen*/
 
+/* Layout */
 
+    
 
 #container {
     
     width: 1200px;
     margin: 0 auto;
-    background-color: red;
+    
 }
 
 #header {
     
     width: 1200px;
     min-height: 200px;
-    background-color: blue;
+    
 }
 
 #navigation {
     
     width: 200px;
     float: left;
-    background-color: green;
+    
     
 }
 
@@ -81,13 +83,55 @@ table {
     width: 1000px;
     float: left;
     min-height: 800px;
-    background-color: pink;
+    
 }
 
-footer {
+#footer {
     
     width: 1200px;
     min-height: 100px;
-    background-color: black;
+    clear: both;
+    
+}
+
+
+/* Utseende, styling */
+
+
+    /*
+    Colors on the site: 
+    #f1f1f1
+    #272727
+    #d8d8d8
+    */
+
+
+#container {
+    
+    background-color: #f1f1f1;
+}
+
+#header {
+    
+    background-color: #272727 ;
     color: white;
+    
+    
+    
+}
+
+#navigation {
+    
+    background-color: #f1f1f1;
+}
+
+#content {
+    
+    background-color: #f1f1f1;
+}
+
+#footer {
+    
+    background-color: #d8d8d8;
+    
 }
