@@ -95,6 +95,44 @@ table {
 }
 
 
+#mainmenu {
+    
+    
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+#mainmenu li {
+    
+    border-bottom: 1px solid black;
+}
+
+
+#mainmenu a {
+    
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+   color: #0e0e0e;
+}
+
+
+#mainmenu a:hover {
+    
+   /* exchange color and backgroundcolor*/
+   background-color: #8d8d8d;
+   color: white;
+}
+
+#mainmenu .active a {
+    
+   /* change color and backgroundcolor*/
+   background-color: #d8d8d8;
+}
+
+
+
+
 /* Utseende, styling */
 
 
@@ -135,3 +173,5 @@ table {
     background-color: #d8d8d8;
     
 }
+
+
