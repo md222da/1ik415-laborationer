@@ -175,3 +175,47 @@ table {
 }
 
 
+/* fonts */
+
+
+
+#container {
+    
+    font-family: "Cinzel", "Helvetica", serif;
+    font-size: 1em;
+    line-height: 120%;
+    text-align: left;
+}
+
+ 
+#container h1 {
+    
+    font-family: "Cinzel", "Helvetica", serif;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+
+#container h2 {
+    
+    font-family: "Cinzel", "Helvetica", serif;
+    font-size: 1.4em;
+}
+
+#container h3 {
+    
+   font-family: "Cinzel", "Helvetica", serif;
+    font-size: 1.2em;
+}
+
+a {
+    
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    
+    color: yellow;
+    text-decoration: underline;
+}
