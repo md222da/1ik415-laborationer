@@ -266,3 +266,15 @@ a:hover{
     background-position: left;
     text-indent: 60px;
 }
+
+.left {
+    
+    float: left;
+    padding-right: 7px;
+}
+
+.right {
+    
+    float: right;
+    padding-left: 7px;
+}
