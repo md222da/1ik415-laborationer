@@ -52,47 +52,60 @@ table {
 
 /* Här börjar stylingen*/
 
-/* Layout */
+/*
+    Colors on the site: 
+    #f1f1f1
+    #272727
+    #d8d8d8
+    */
 
     
 
 #container {
     
-    width: 1200px;
+    width: 800px;
     margin: 0 auto;
-    
+    background-color: #f1f1f1;
+    font-family: "Cinzel", "Helvetica", serif;
+    font-size: 1em;
+    line-height: 130%;
+    text-align: left;
 }
 
 #header {
     
-    width: 1200px;
     min-height: 200px;
-    
+    background-color: #000000;
+    color: white;
+    background-image: url(pics/nykurslogga.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #navigation {
     
     width: 190px;
     float: left;
-    
+    background-color: #f1f1f1;
     
 }
 
 #content {
     
-    width: 1000px;
+    width: 600px;
     float: left;
     min-height: 800px;
     padding: 5px;
-    
+    background-color: #f1f1f1;
+    line-height: 120%;
 }
 
 #footer {
     
-    width: 1200px;
+    
     min-height: 100px;
     clear: both;
-    
+    background-color: #d8d8d8;
 }
 
 
@@ -125,7 +138,7 @@ table {
    color: white;
 }
 
-#mainmenu .active a {
+#mainmenu .active{
     
    /* change color and backgroundcolor*/
    background-color: #d8d8d8;
@@ -169,63 +182,6 @@ table td {
     
 }
 
-/* Utseende, styling */
-
-
-    /*
-    Colors on the site: 
-    #f1f1f1
-    #272727
-    #d8d8d8
-    */
-
-
-#container {
-    
-    background-color: #f1f1f1;
-}
-
-#header {
-    
-    background-color: #272727 ;
-    color: white;
-    
-    
-    
-}
-
-#navigation {
-    
-    background-color: #f1f1f1;
-}
-
-#content {
-    
-    background-color: #f1f1f1;
-    line-height: 120%;
-}
-
-#footer {
-    
-    background-color: #d8d8d8;
-    
-}
-
-
-/* fonts */
-
-
-
-#container {
-    
-    font-family: "Cinzel", "Helvetica", serif;
-    font-size: 1em;
-    line-height: 130%;
-    
-    text-align: left;
-}
-
- 
 #container h1 {
     
     font-family: "Cinzel", "Helvetica", serif;
@@ -264,14 +220,19 @@ a:hover{
     max-width: 50em;
 }
 
+
+.bloggtext {
+    
+    margin-bottom: 60px;
+}
+
+#videobunny {
+    
+    max-width: 550px;
+}
+
 /* pics */
 
-.logpic {
-    
-    background-image: url(pics/rsz_kurslogga.png);
-    background-repeat: no-repeat;
-    background-position: top-left;
-}
 
 .staricon {
     
@@ -279,6 +240,7 @@ a:hover{
     background-repeat: no-repeat;
     background-position: left;
     text-indent: 60px;
+    
 }
 
 .left {
