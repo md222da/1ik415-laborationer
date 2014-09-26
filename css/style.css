@@ -145,11 +145,6 @@ table {
 }
 
 
-#header h1 {
-    
-    padding-top: 20px;
-}
-
 
 #content h2, h3 {
     
@@ -182,22 +177,24 @@ table td {
     
 }
 
-#container h1 {
+h1 {
     
     font-family: "Cinzel", "Helvetica", serif;
     font-size: 1.7em;
-    text-align: center;
+    text-align: left;
+    padding: 20px;
+    
 }
 
 
-#container h2 {
+h2 {
     
     font-family: "Cinzel", "Helvetica", serif;
     font-size: 1.4em;
    
 }
 
-#container h3 {
+h3 {
     
    font-family: "Cinzel", "Helvetica", serif;
     font-size: 1.2em;
